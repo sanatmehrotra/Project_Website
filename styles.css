@@ -9,16 +9,17 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 1px;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #ffffffb7;
+    background-color: #c2e6c1b7;
     border-radius: 0px;
   }
   
   ::-webkit-scrollbar-track {
-    background-color: #00c37b60;
+    background-color: #001d0558;
+    border-radius: 0.01px;
   }
 
 .parallax-main {
@@ -229,12 +230,14 @@ footer {
   }
   
   .calculator {
-    width: 500px;
+    width: auto;
     display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     background-color: rgb(217, 210, 210);
+     background-color: rgba(255, 255, 255, 0.415);
+     backdrop-filter: blur(5px);
+     border-radius: 25px;
    }
    
    .input-group {
@@ -278,11 +281,32 @@ footer {
    button:active {
      background-color: rgba(255,255,255,0.3);
    }
+
+   .button1 {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 7px;
+    background-color: rgba(197, 197, 197, 0.9);
+    color: #000;
+    cursor: pointer;
+    font-size: .9rem;
+  }
+  
+  .button1:hover {
+    background-color: rgba(201, 201, 201, 0.6);
+  }
+  .button1:active {
+    background-color: rgba(57, 57, 57, 0.3);
+  }
    
  
    .result {
      margin-top: 20px;
      font-size: 1.5rem;
-     font-weight: 500;
-     color: white;
+     font-weight: 700;
+     color: rgb(0, 0, 0);
+     margin-bottom: 12px;
  }
+ 
