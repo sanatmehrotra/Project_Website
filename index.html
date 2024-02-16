@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <title>Life Tracer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="parallax-main">
+        <header>
+            <div class="top-sec">
+                <nav>
+                    <ul>
+                        <li><a href="#login" class="rounded-bg">Carbon Emission Calculator</a></li>
+                        <li><a href="#at" class="rounded-bg">Activity Tracker</a></li>
+                        <li><a href="#sc" class="rounded-bg">Challenges</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container-main" style="font-family: Poppins, sans-serif;">
+                <span class="fade-in" style="font-size: 48px; font-family: Fredoka, serif ;color: rgb(255, 255, 255);">Team Seabirds</span>
+                <span class="fade-in" style="font-size: 22px;font-family: Fredoka">🕊️<br></span>
+                <span class="fade-in" style="font-size: 24px; font-weight: 300; margin-left: 10px">Start small, impact large.<br></span>
+                <span class="fade-in" style="font-size: 24px; margin-left: 10px;">Life Tracer</span>
+                <span class="fade-in" style="color: rgb(255, 255, 255); font-weight: 600; font-size: 29px"></span>
+                
+        </div>      
+        </header>
+    </div>
+    <section id="about" class="parallax" style="background-image: url('null');">
+        <div class="container" style="font-size: 18px; font-family: Lato; font-weight: 600">
+            <h2 class="fade-in">🧩 About Sustainable Living Tracer</h2>
+            <p class="fade-in" style="font-size: 19px">🚀 How can we make the world a better place?</p>
+            <p class="fade-in" style="color: #1a1a1a; font-family: Lato;">Dive into the Sustainable Living Tracer! Track your environmental footprint across energy, water, waste, and more. Set personalized goals, access educational resources, and connect with a supportive community for tips and challenges. This empowers you to take action, celebrate progress, and join a collective movement towards a healthier planet. Imagine the impact as awareness spreads, actions multiply, and data informs positive change. Together, we can build a greener world, one sustainable step at a time. Join the Tracer today and be the change!</p>
+            <p class="fade-in" style="font-size: 34px; font-family: Righteous;">🌍 Key Features of Sustainable Living Tracer</p>
+            <p class="fade-in">🖲️ Personalized Impact Tracking: Monitor your environmental footprint across energy, water, waste, and transportation with interactive dashboards.</p>
+            <p class="fade-in">🎯 Goal Setting & Achievement: Set personalized sustainability goals and track your progress over time, celebrating milestones and staying motivated.</p>
+            <p class="fade-in">🛠️ Educational Resources: Learn about sustainable practices through engaging articles and quizzes, deepening your understanding and inspiring action.</p>
+            <p class="fade-in">📢 Community Engagement: Connect with a supportive community of like-minded individuals, share tips and participate in collaborative challenges.</p>
+            <p class="fade-in">📊 Data-Driven Insights: Contribute to valuable data that informs policymakers and businesses, driving positive change towards a more sustainable future.</p>
+        </div>
+    </section>
+    <section id="skills" class="parallax" style="background-image: url('bg1.jpg');">
+        <div class="container">
+            <h2 class="fade-in">Carbon Emission Calculator</h2>
+            <div class="calculator">
+                <h2>blah blah bloah auaua</h2>
+                <div class="fade-in">
+                <div class="input-group">
+                <label for="electricity">Electricity Consumption (kWh):</label>
+                <input type="number" id="electricity">
+                </div>
+                <div class="input-group">
+                <label for="gas">Gas Consumption (kWh):</label>
+                <input type="number" id="gas">
+                </div>
+                <div class="input-group">
+                <label for="biomass">Biomass (kWh):</label>
+                <input type="number" id="biomass">
+                </div>
+                <div class="input-group">
+                    <label for="coal">Coal (kWh):</label>
+                    <input type="number" id="coal">
+                </div>
+                <div class="input-group">
+                    <label for="heatingOil">Heating Oil (kWh):</label>
+                    <input type="number" id="heatingOil">
+                </div>
+                <div class="input-group">
+                    <label for="lpg">LPG (kWh):</label>
+                    <input type="number" id="lpg">
+                </div>
+            
+            
+                <button onclick="calculateEmissions()">Calculate</button>
+            
+                <div id="result" class="result"></div>
+            </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="projects-heading" class="parallax" style="background-image: url('null');">
+        <div class="container">
+            <h2 class="fade-in" style="margin-bottom: 75px;">Projects<br></h2>
+            <button><span>Check Out My Projects!</span><i></i>
+            </button>
+        </div>
+    </section>
+
+    <footer class="fade-in">
+        <div class="container">
+            <p id="tips">Curb your use of paper: mail, receipts, magazines</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
