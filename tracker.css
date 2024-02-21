@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    padding: 10px;
+    
+
+    
+}
+body{
+    background-color: #000000;
+}
+
+
+
+.container {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: #dbf26e;
+    background-image: linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    border: 10px groove rgba(0, 0, 0, 0.125);  
+    padding: 38px;  
+    filter: drop-shadow(0 30px 10px rgba(93, 72, 72, 0.125));
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    justify-content:center;
+    text-align: left;
+    height: 680px;
+    
+  }
+
+  .module{
+    height: 200px;
+    width: 320px;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+
+    /* background-image: linear-gradient(319deg, #D3D3D3 50%, #1DD1A1 100%); */
+
+  }
+
+  .start{
+    margin-top: 40px;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -5px;
+  }
+
+  p{
+    margin-top: -30px;
+  }
+
+  .hide
+{
+    display: none;
+}
+input[type="checkbox"]{
+    /* appearance: none; */
+    width: 17px;
+    height: 17px;
+    accent-color: #44eb70;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenges</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        body{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(204, 245, 170);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .hide{
+            display: none;
+        }
+        input[type="checkbox"]
+        {
+            accent-color: #44eb70;
+        }
+        .container{
+            width: 50%;
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 20px;
+            box-shadow: 8px 10px 5px rgba(55,55,55,0.3);
+        }
+        .container h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+    
+    <h1>CHALLENGES</h1>
+    <div class="challenges">
+        <input type="checkbox" onclick="validate()"> Use a reusable bottle/cup <br/>
+        <input type="checkbox" onclick="validate()"> Use reusable grocery bags <br/>
+        <input type="checkbox" onclick="validate()"> Donate used goods <br/>
+        <input type="checkbox" onclick="validate()"> Plan your meals <br/>
+        <input type="checkbox" onclick="validate()"> Buy secondhand items <br/>
+    </div>
+    <div class="challenges hide">
+        <input type="checkbox" onclick="validate()"> Purchase wisely <br/>
+        <input type="checkbox" onclick="validate()"> Shop from local markets <br/>
+        <input type="checkbox" onclick="validate()"> Curb your use of paper<br/>
+        <input type="checkbox" onclick="validate()"> Invest in cloth produced bags<br/>
+        <input type="checkbox" onclick="validate()"> Ditch the tea bags<br/>
+    </div>
+    <div class="challenges hide">
+        <input type="checkbox" onclick="validate()"> Compost waste <br/>
+        <input type="checkbox" onclick="validate()"> Reduce meat in your meals <br/>
+        <input type="checkbox" onclick="validate()"> Replace soap bottles with soap bars<br/>
+        <input type="checkbox" onclick="validate()"> Recycle spare tires<br/>
+        <input type="checkbox" onclick="validate()"> Use digital instead of print<br/>
+    </div>
+    <div class="challenges hide">
+        <p>CONGRATULATIONS! YOU COMPLETED ALL THE CHALLENGES.</p>
+    </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
